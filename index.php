@@ -51,9 +51,10 @@ unorderlist;
 
 
 // ****************  4  ******************
-    // Variable Variable
+// Variable Variable
 
 
+$t = "********************";
 
 $n = "Wesam";
 
@@ -91,3 +92,18 @@ echo '<br>';
 
 echo $surname;
 echo '<br>';
+
+
+//  ********************  6  ******************
+
+$num = 6;
+
+echo "<h3>$t $num $t</h3>";
+echo "<h3>Pre-Defined Variables</h3>";
+
+
+
+echo '<pre>';
+    print_r($_SERVER);
+echo '</pre>';
+
