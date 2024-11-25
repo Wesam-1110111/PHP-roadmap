@@ -47,3 +47,47 @@ echo <<<"unorderlist"
         <li>1st</li>
     </ul>
 unorderlist;
+
+
+
+// ****************  4  ******************
+    // Variable Variable
+
+
+
+$n = "Wesam";
+
+echo $n;
+
+echo "<br>";
+
+$$n = "Mr. W";
+echo $$n;
+
+echo "<br>";
+
+echo $Wesam;
+
+echo "<br>";
+
+$$$n = "hi";
+
+echo "he tell me '${$$n}'";
+
+
+//  ********************  5  ******************
+
+
+echo '<h3>********************  5  ******************</h3>';
+
+
+$name = 'wesam';
+$surname = &$name;
+
+$surname = 'Mr. w';
+
+echo $name;
+echo '<br>';
+
+echo $surname;
+echo '<br>';
