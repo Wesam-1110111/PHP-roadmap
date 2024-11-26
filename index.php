@@ -54,7 +54,8 @@ unorderlist;
 // Variable Variable
 
 
-$t = "********************";
+$t1 = "<h3>********************";
+$t2 = "********************</h3>";
 
 $n = "Wesam";
 
@@ -98,7 +99,7 @@ echo '<br>';
 
 $num = 6;
 
-echo "<h3>$t $num $t</h3>";
+echo "$t1 $num $t2";
 echo "<h3>Pre-Defined Variables</h3>";
 
 
@@ -107,3 +108,27 @@ echo '<pre>';
     print_r($_SERVER);
 echo '</pre>';
 
+
+
+//  ********************  7  ********************
+
+echo "$t1 7 $t2";
+
+echo "<h3>Constants</h3><br><br>";
+
+define("MY_NAME", "Wesam");
+
+echo MY_NAME;
+
+
+//  ********************  8  ********************
+
+
+
+function print_title($nu, $text){
+    echo "<h3>********************  $nu  ********************</h3>";
+    echo "<h3>* * * * * * * $text * * * * * * *</h3>";
+    echo "<h3>****************************************</h3>";
+}
+
+print_title(8, 'Predefined & Magic Constants');
