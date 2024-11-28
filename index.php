@@ -109,10 +109,11 @@ echo '<pre>';
 echo '</pre>';
 
 function print_title($nu, $title){
-    echo "<br><br><br><br><br><hr><br><br><br><br><br>";
+    echo "<br><br><br><br><br><hr><br><br>";
     echo "<h3>********************  $nu  ********************</h3>";
     echo "<h3>* * * * * * * $title * * * * * * *</h3>";
     echo "<h3>****************************************</h3>";
+    echo "<br><br><br><br>";
 }
 
 
@@ -126,7 +127,7 @@ print_title(7, "Constants");
 
 // echo MY_NAME;
 
-echo "<p>The Constants like variables but you can't change the value.<br>To declear a constant use: <code>define()</code>.<br>Example: declear a constant.<br><code>// declear a constant it's name (MY_NAME).<br>define(MY_NAME, 'Wesam');";
+echo "<p>The Constants like variables but you can't change the value.<br>To declear a constant use: <code>define()</code>.<br>Example: declear a constant.<br><code>// declear a constant it's name (MY_NAME).<br>define(MY_NAME, 'Wesam');</code>";
 
 
 //  ********************  8  ********************
@@ -134,7 +135,34 @@ echo "<p>The Constants like variables but you can't change the value.<br>To decl
 
 
 
-print_title(8, 'Predefined & Magic Constants');
+print_title(8, "Predefined & Magic Constants");
 
 
+
+
+// ********************  9  ********************
+
+print_title(9, "Operators");
+
+
+echo <<<'ul'
+    <ul>
+        <li>[+] => Addition</li>
+        <li>[-] => Subtraction</li>
+        <li>[*] => Multiplication</li>
+        <li>[/] => Division</li>
+        <li>[%] => Modulus</li>
+        <li>[**] => Power</li>
+        <li>[+$a] => Identity</li>
+        <li>[-$a] => Negation</li>
+    </ul>
+ul;
+
+echo "<br>";
+
+echo "<p>The last two are: convert string to integr by just put the '+' or '-' before variable or the value.<br>But they are not the same, the '-' if the number was '100' it will be '-100' in integr, and the '+' don't.<br>";
+
+
+
+// Close tag center
 echo "<br></center>";
