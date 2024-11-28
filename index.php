@@ -125,9 +125,9 @@ echo MY_NAME;
 
 
 
-function print_title($nu, $text){
+function print_title($nu, $title){
     echo "<h3>********************  $nu  ********************</h3>";
-    echo "<h3>* * * * * * * $text * * * * * * *</h3>";
+    echo "<h3>* * * * * * * $title * * * * * * *</h3>";
     echo "<h3>****************************************</h3>";
 }
 
