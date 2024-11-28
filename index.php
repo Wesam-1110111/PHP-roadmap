@@ -108,27 +108,33 @@ echo '<pre>';
     print_r($_SERVER);
 echo '</pre>';
 
+function print_title($nu, $title){
+    echo "<br><br><br><br><br><hr><br><br><br><br><br>";
+    echo "<h3>********************  $nu  ********************</h3>";
+    echo "<h3>* * * * * * * $title * * * * * * *</h3>";
+    echo "<h3>****************************************</h3>";
+}
 
 
 //  ********************  7  ********************
 
-echo "$t1 7 $t2";
+echo "<center>";
 
-echo "<h3>Constants</h3><br><br>";
+print_title(7, "Constants");
 
-define("MY_NAME", "Wesam");
+// define("MY_NAME", "Wesam");
 
-echo MY_NAME;
+// echo MY_NAME;
+
+echo "<p>The Constants like variables but you can't change the value.<br>To declear a constant use: <code>define()</code>.<br>Example: declear a constant.<br><code>// declear a constant it's name (MY_NAME).<br>define(MY_NAME, 'Wesam');";
 
 
 //  ********************  8  ********************
 
 
 
-function print_title($nu, $title){
-    echo "<h3>********************  $nu  ********************</h3>";
-    echo "<h3>* * * * * * * $title * * * * * * *</h3>";
-    echo "<h3>****************************************</h3>";
-}
 
 print_title(8, 'Predefined & Magic Constants');
+
+
+echo "<br></center>";
