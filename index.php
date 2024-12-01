@@ -164,5 +164,24 @@ echo "<p>The last two are: convert string to integr by just put the '+' or '-' b
 
 
 
+// *********************  10  *******************
+
+
+print_title(10, "Error Control");
+
+$aaa = 10;
+$b = @$aaa or die("Error, Variable not found in line: " . __LINE__);
+
+echo $b;
+
+
+echo "<br>";
+
+echo '<p>You can stop the error with: <code>@</code>, before the line of code.<br>Example: <br><code>$a = 10;<br>$b = @$aaa or die("Error, Variable not found in line: " . __LINE__);<br>echo $b;</code>';
+
+echo "<br>";
+
+echo "Here there is no variable called aaa, so <code>die()</code> will work insteed and print the massege in it, and stop the code of running.";
+
 // Close tag center
 echo "<br></center>";
