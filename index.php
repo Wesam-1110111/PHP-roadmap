@@ -109,3 +109,34 @@ while($i < 4){
 	echo "$i ";
 	$i++;
 }
+
+
+
+//  ****************  6  ***************
+
+
+print_title(6, 'Do While');
+
+
+echo 'Nothing new';
+
+
+
+//  ****************  7  ****************
+
+
+print_title(7, 'For Loop');
+
+
+echo 'Nothing new';
+
+
+
+//  ****************  8  ****************
+
+
+print_title(8, 'Foreach Loop');
+
+
+echo '<h1 style="color:#f93426">New</h1><br><br>';
+
