@@ -68,3 +68,24 @@ print_title(2, "Advanced if, elseif and else");
 // f2;
 
 echo 'Click <a href="lang_support.php">here</a> to go';
+
+
+
+//  ****************  3  ***************
+
+
+print_title(3, 'Ternary Conditional');
+
+
+echo "<code>echo 10 > 8 ? 'greater then' : 'less then';</code>";
+echo "<p>Here will echo 'greater then' if 10 > 8 else will echo  'less then'.<br></p>";
+
+
+
+//  **************  4  **************
+
+
+print_title(4, 'Switch case');
+
+
+echo 'click <a href="switch.php">here</a> to go';
