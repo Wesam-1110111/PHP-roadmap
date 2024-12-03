@@ -53,3 +53,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
 
 
 print_title(2, "Advanced if, elseif and else");
+
+
+// echo <<<"f2"
+// 	<form action="" method="POST">
+// 		<input type="text" name="username">
+// 		<select name="lang">
+// 			<option value="ar">Arabic</option>
+// 			<option value="en">English</option>
+// 			<option value="sp">Spanish</option>
+// 		</select>
+// 		<button type="submit">Submit</button>
+// 	</form>
+// f2;
+
+echo 'Click <a href="lang_support.php">here</a> to go';
