@@ -89,3 +89,23 @@ print_title(4, 'Switch case');
 
 
 echo 'click <a href="switch.php">here</a> to go';
+
+
+
+
+//  ****************  5  *****************
+
+
+print_title(5, 'While Loop');
+
+
+echo 'click <a href="while.php">here</a> to go<br><br><br>';
+
+
+
+$i = 1;
+
+while($i < 4){
+	echo "$i ";
+	$i++;
+}
