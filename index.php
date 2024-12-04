@@ -137,15 +137,18 @@ echo 'Nothing new';
 
 print_title(8, 'Foreach Loop');
 
-echo '<h1 style="color:#f93426">New</h1><br><br>';
+
+// echo '<h1 style="color:#f93426">New</h1><br><br>';
+echo 'click <a href="foreach.php">here</a> to go<br><br><br>';
 
 
 
 
-// *****************  9  ******************
+
+// *****************  Project  ******************
 
 
-print_title(9, 'Search Engine');
+print_title('Project', 'Search Engine');
 
 
 echo 'click <a href="search.php">here</a> to go<br><br><br>';
