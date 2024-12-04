@@ -137,6 +137,16 @@ echo 'Nothing new';
 
 print_title(8, 'Foreach Loop');
 
-
 echo '<h1 style="color:#f93426">New</h1><br><br>';
+
+
+
+
+// *****************  9  ******************
+
+
+print_title(9, 'Search Engine');
+
+
+echo 'click <a href="search.php">here</a> to go<br><br><br>';
 
