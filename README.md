@@ -8,7 +8,8 @@ The Roadmap is [here](https://elzero.org/study/php-bootcamp-2022-study-plan/)
 ## Tools:
 - PC.
 - Internet.
-- VS Code.
+- ~~VS Code~~.
+- Sublime Text.
 - XAMPP.
 - Google Chrome.
 - Git & Github.
