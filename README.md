@@ -14,3 +14,5 @@ The Roadmap is [here](https://elzero.org/study/php-bootcamp-2022-study-plan/)
 - Google Chrome.
 - Git & Github.
 - YouTube.
+
+Don't follow me on X, [Click here](https://twitter.com/Wesam2021ly?t=T7-5R2s8xv2HnPtTTj8pvw&s=09)
