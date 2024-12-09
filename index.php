@@ -46,7 +46,7 @@ sum(2, 4, 6, 8, 2, 5, 0, 0, 0, 111, 2);
 print_title(3, 'Functions Passing By Reference');
 
 
-echo "To passing by reference just add '&' to the Argument.<br>Example:<br><br>";
+echo "To passing by reference just add '&' to the Parameter.<br>Example:<br><br>";
 
 
 echo <<< 'code'
@@ -93,3 +93,28 @@ echo <<< 'p'
 		</code>
 	</p>
 p;
+
+
+// ***********************  5  **********************
+
+
+print_title(5, 'Anonymous Function');
+
+
+echo 'It is just a function without a name, and used for one task.<br><br>';
+
+
+$hi = function($msg, $person){
+	return "$msg $person";
+};
+
+echo $hi('Welcome back', 'Mr. W');
+
+
+$nice = function(){
+	return '<br><br><p style="color:red; font-size: 40px;">nice try</p><br><br>';
+};
+
+echo $nice();
+
+
