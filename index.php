@@ -63,12 +63,33 @@ code;
 // the code
 
 function add_two(&$num){
-			return $num += 2;
-		}
+	return $num += 2;
+}
 
-		echo '<br>'.'<br>';
+echo '<br>'.'<br>';
 
-		$n = 5;
+$n = 5;
 		
-		echo add_two($n) . '<br>';
-		echo $n;
+echo add_two($n) . '<br>';
+echo $n;
+
+
+
+//    *********************  4  ***************
+
+
+print_title(4, "Return Type");
+
+
+echo <<< 'p'
+	<p>
+		To declear the return type just add the type in the function.<br>
+		Example:<br><br>
+		<code>
+			function sum($num1, $num2): int{<br>
+				return $num1 + $num2;<br>
+			}<br><br>
+			echo sum(9.5, 10.5); // int(20)<br>
+		</code>
+	</p>
+p;
