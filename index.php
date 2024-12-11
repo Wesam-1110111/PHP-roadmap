@@ -118,3 +118,29 @@ $nice = function(){
 echo $nice();
 
 
+
+
+//  ******************  6  *********************
+
+
+
+print_title(6, 'Arrow Function');
+
+
+function say_hi(){
+	return 'hi';
+}
+
+
+$say_hello = fn() => 'hello';
+
+
+
+echo 'test --> ' . say_hi();
+
+echo '<br><br><br>';
+
+echo 'test2 --> ' . $say_hello();
+
+
+echo '<p>- The Arrow Function is a short syntax for Anonymous Function.<br><br>Example:<br><br><br><code>$say_hello = fn() => \'hello\';</code></p>';
