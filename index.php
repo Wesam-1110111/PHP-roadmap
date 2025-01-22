@@ -63,4 +63,22 @@ echo '- str_slpit(String[require], Length[optional]) --> Split the string as you
 
 
 
+//  ***********************  5  *******************
 
+
+print_title(5, 'String Functions 4');
+
+
+echo<<<'test'
+
+- strpos(String[Required], Value[Required], Start Position[Optional]) --> *Case-Sensitive* Return the position of the value in the string.
+
+- strrpos(String[Required], Value[Required], Start Position[Optional]) --> *Case-Sensitive* Return the last(Right) position of the value in the string.
+
+- stripos(String[Required], Value[Required], Start Position[Optional]) --> *Case-Insensitive* Return the position of the value in the string.
+
+- strripos(String[Required], Value[Required], Start Position[Optional]) --> *Case-Insensitive* Return the last position of the value in the string.
+
+- substr_count(String[Required], Value[Required], Start Position[Optional], Length[Optional]) --> *unknowon* Return the count of the value in string.
+
+test;
