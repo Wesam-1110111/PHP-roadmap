@@ -35,4 +35,16 @@ function print_title($number, $title){
 
 
 
+function newLine($num=1){
+	
+	if ($num == 1){
+		echo '<br>';
+	}
+	else{
+		for($i=0;$i<=$num;$i++){
+			echo '<br>';
+		}
+	}
+}
+
 ?>
