@@ -1,3 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home | index</title>
+	<style>
+		body{
+			text-align: center;
+		}
+		.down-btn{
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+	</style>
+</head>
+<body>
+	<a href="#down"><button class="down-btn">Bottom</button></a>
+</body>
+</html>
+
+
 <?php
 
 echo '<center>';
@@ -221,3 +244,43 @@ echo 'String[Input], Replace[99], Start[7], Length[-2] --> ' . substr_replace("h
 newLine();
 
 echo 'String[Input], Replace[99], Start[10], Length[0] --> ' . substr_replace("hello i am a String, nice to meet you.", "99", 10, 0);
+
+
+
+
+// **********************  9  ******************
+
+
+print_title(9, 'String Functions Part 8');
+
+
+
+echo <<< 'dd'
+
+- wordwrap(String[Required], Width[Optional = 75], Break_Char[Optional = "\n"], Cut_Long[Opional = False]) <br>
+- ord(String[Required]) --> Convert Char to ASCII <br>
+- chr(Int[Required]) --> Convert ASCII to Char <br>
+- similar_text(String_One[Required], String_Two[Required], Percent[Optional]) <br>
+
+dd;
+
+
+//  *********************  10  ****************
+
+
+print_title(10, 'String Functions Part 9');
+
+
+echo <<< 'dd'
+
+- strstr(String[Required], Search[Required], Before_Search[Optional = False]) --> Case-Sensitive <br>
+- stristr(String[Required], Search[Required], Before_Search[Optional = False]) --> Case-Insensitive <br>
+- number_format(Number[Required], Decimals[Optional], Decimal_String[Optional], Sapartor[Optional]) <br>
+
+dd;
+
+
+newLine(2);
+
+echo '<h2 id="down">-- Done With String Functions --</h2>';
+
